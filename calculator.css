@@ -1,0 +1,53 @@
+body{
+    background-color: black;    /*   we are tryna the background black and text color white*/
+    color: antiquewhite;
+
+
+}
+button{
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    background-color: rgb(223, 146, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: pointer;
+
+
+}
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr); /* Creates a grid with 4 equal columns */
+    gap: 2px; /* Space between buttons */
+}
+.button-clear
+{
+background-color: red;
+}
+.button-equals
+{
+background-color: blue;
+}
+
+/*
+width and height: Control the size of the button.
+font-size: Adjusts the size of the text inside the button.
+border: Removes or styles the button border.
+border-radius: Rounds the corners of the button.
+background-color: Sets the background color of the button.
+color: Changes the text color inside the button.
+margin: Adds space around the button.
+cursor: pointer; Changes the cursor to a pointer when hovering over the button.
+*/
+.calculator-display
+{
+    padding: 10px 15px; 
+    font-size: 24px;        /*this is the text box */
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black;
+}
+
+
